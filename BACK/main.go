@@ -9,7 +9,7 @@ import (
 
 func generateQRCode(w http.ResponseWriter, r *http.Request) {
 	// Text to encode in QR Code
-	code := "google.com"
+	code := "Aidana"
 
 	// Generate the QR code
 	qrCode, err := qrcode.Encode(code, qrcode.Medium, 256)
